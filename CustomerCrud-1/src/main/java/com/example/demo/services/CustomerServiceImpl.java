@@ -63,7 +63,7 @@ public class CustomerServiceImpl implements CustomerService {
 	      
 
 	    } else {
-	        throw new InvalidMobileNumber("INVALID MOBILE NUMBER");
+	        throw new InvalidMobileNumber("plz! INVALID MOBILE NUMBER ");
 	    }
 	    
 
