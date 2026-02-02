@@ -27,7 +27,7 @@ public class CustomerServiceImpl implements CustomerService {
 	        }
 
 	        if (cr.existsById(customer.getId())) {
-	            throw new InvalidIdException("ID already present");
+	            throw new InvalidIdException("ID already present plz enter another id");
 	        }
 	    }
 		
